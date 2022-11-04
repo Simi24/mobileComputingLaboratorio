@@ -1,3 +1,13 @@
+#Commenti all'esercizio
+Ricordiamo la gestione delle pagine, nello stato mettiamo un numero di pagina
+poi quando clicca sul bottone chiamiamo un metodo handle che modifica lo stato cambiando il numero di pagina.
+In modo che nel render tramite un if controlliamo in che pagina siamo.
+Invece di questa porcheria per gli utenti si può creare un istanza di una classe direttamente in un array:
+users: [new User(8, "Giovanni", 1), new User(9, "Silvio", 0), new User(10, "Marta", 2)].
+
+Inoltre nello state ho messo un campo userToShow che mi permette di stampare i dati dell'utente nella seconda schermata.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
