@@ -28,7 +28,6 @@ class App extends React.Component{
     if (this.state.page === 0) {
       return <div>
       <ul>{this.state.users.map(utente => this.contactRow(utente))}</ul>
-      
       </div>;
     } else {
       return <div>
