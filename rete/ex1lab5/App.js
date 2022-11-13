@@ -8,7 +8,7 @@ import Lista from './components/lista';
 
 class App extends React.Component {
   state = { page : 0, twoks: [] }
-  
+
   render() { 
     if(this.state.page == 0){
       return (
@@ -33,11 +33,11 @@ class App extends React.Component {
 
 
   setPage1 = (twokke) => {
-    console.log('setPage1: ' + twokke)
+    //console.log('setPage1: ' + twokke)
     this.setState({page : 1})
     this.setState({twoks : twokke})
-    console.log(this.state.page)
-    console.log('setPage1: ' + this.state.twoks)
+    //console.log(this.state.page)
+    //console.log('setPage1: ' + this.state.twoks)
   }
 }
 

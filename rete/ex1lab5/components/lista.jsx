@@ -6,7 +6,7 @@ import Twok from './twok';
 class Lista extends React.Component {
     state = {  } 
     render() { 
-        console.log('siamo in twok: ' + this.props.setPage0)
+        //console.log('siamo in twok: ' + this.props.setPage0)
         return (<View>
             <FlatList
             data={this.props.dati}
