@@ -9,7 +9,7 @@ import CommunicationController from './model/CC';
 
 class App extends React.Component {
 
-  state = { page : 0, twoks: [] }
+  state = { page : 0}
 
   render() { 
     if(this.state.page == 0){
@@ -35,10 +35,10 @@ class App extends React.Component {
   }
 
 
-  setPage1 = (twokke) => {
-    //console.log('setPage1: ' + twokke)
+
+  setPage1 = () => {
     this.setState({page : 1})
-    this.setState({twoks : twokke})
+    //this.setState({twoks : twokke})
     //console.log(this.state.page)
     //console.log('setPage1: ' + this.state.twoks)
   }
