@@ -1,0 +1,9 @@
+package com.example.es1lab6.Room;
+
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
+
+@Database(entities = {Profile.class}, version=1)
+public abstract class ProfileRepository extends RoomDatabase {
+    public UserDao userDao;
+}

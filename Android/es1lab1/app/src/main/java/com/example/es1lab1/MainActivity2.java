@@ -28,11 +28,11 @@ public class MainActivity2 extends AppCompatActivity {
 
         Button buttonCall = findViewById(R.id.button2);
 
-        buttonCall.setOnClickListener(new View.OnClickListener(){
+        /*buttonCall.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent intent = new Intent((Intent.ACTION_DIAL);
+                Intent intent = new Intent((Intent.ACTION_DIAL)
 
             }
-        });
+        });*/
     }
 }
